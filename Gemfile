@@ -15,6 +15,9 @@ gem 'uglifier'
 
 gem 'jquery-rails'
 
+group :production do
+  gem 'mysql'
+end
 # Use unicorn as the web server
 # gem 'unicorn'
 
